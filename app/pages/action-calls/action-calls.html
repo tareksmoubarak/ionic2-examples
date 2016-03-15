@@ -1,0 +1,29 @@
+
+<ion-navbar *navbar>
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>Action Calls</ion-title>
+</ion-navbar>
+
+<ion-content padding class="getting-started">
+	<button class="button" (click)="doBasicAlert()">
+		Show Basic Alert
+	</button>
+	<br>
+	<button class="button" (click)="doPromptAlert()">
+		Show Prompt Alert
+	</button>
+	<br>
+	<button class="button" (click)="doConfirmationAlert()">
+		Show Confirmation Alert
+	</button>
+	<br>
+	<button class="button" (click)="doRadioAlert()">
+		Show Radio Alert
+	</button>
+	<br>
+	<button class="button" (click)="doCheckboxAlert()">
+		Show Checkbox Alert
+	</button>
+</ion-content>
